@@ -5,7 +5,12 @@ def is_even(input):
     uneven numbers to be False
     assert error if not a number (Integer)
     """
-    return True
+    if (input%2)==0:
+        return True
+    else:  
+        return False
 
 assert is_even.__doc__
 assert is_even(2)
+assert not is_even(1)
+
