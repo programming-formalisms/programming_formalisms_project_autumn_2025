@@ -21,5 +21,11 @@ assert has_thrown
 
 def is_prime(n):
     """Function that return True if n is a prime number, otherwise returns False"""
-    
+    for i in range(2, n):
+        if n%i == 0:
+            return False
+        
+    return True
+
 assert is_prime.__doc__
+assert is_prime(3)
