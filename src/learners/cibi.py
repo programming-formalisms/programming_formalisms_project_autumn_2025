@@ -33,7 +33,7 @@ def is_even(input):
     3. Gives an error when the inputis not a number
     """
 
-    if isinstance(input,int):
+    if not isinstance(input, int):
         raise TypeError("The input must be an integer!")
 
     if (input % 2 == 0):
@@ -41,3 +41,5 @@ def is_even(input):
     return False
 
 
+# Testing using Assert
+assert is_even(2)
