@@ -3,6 +3,8 @@
 
 def is_zero(input):
     """ Determins if the input is zero """
+    if not isinstance(input, int):
+        raise TypeError("Input must be of type integer")
     return input == 0
 
 assert is_zero.__doc__
@@ -11,7 +13,7 @@ assert is_zero(1) == False
 
 has_thrown = False
 try:
-    my_function("nonsense")
+    is_zero("nonsense")
 except:
     has_thrown = True
 assert has_thrown
