@@ -12,3 +12,11 @@ def is_zero(input):
         return False
 
 assert is_zero.__doc__
+
+
+# Testing
+# Test 1
+print(is_zero(1))
+print(is_zero(-1))
+print(is_zero(0))
+print(is_zero(1.3))
