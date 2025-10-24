@@ -43,3 +43,4 @@ def is_even(input):
 
 # Testing using Assert
 assert is_even(2)
+assert not is_even(3)
