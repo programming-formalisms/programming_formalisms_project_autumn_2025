@@ -16,3 +16,5 @@
 | REQ-004 | The app shall display a time-series chart of temperature for the selected region | Chart renders correctly with labeled axes and data points | Technical | Chart rendering may lag or misrepresent data | P3 | S3 | 9 | Use efficient chart libraries and test with sample data |
 | REQ-005 | Data shall update correctly when filters (time or region) are changed | Data refreshes within 5 seconds of filter change | Technical | Delayed or failed data refresh | P4 | S4 | 16 | Add fallback logic and retry mechanisms |
 | REQ-006 | Load the data into a database | The dataframe should not contain any missing value | Technical | Missing or malformed data during ingestion | P3 | S4 | 12 | Validate and clean data before loading |
+
+Test
