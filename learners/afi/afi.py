@@ -55,3 +55,24 @@ except TypeError:
 assert has_thrown
 
 
+def is_probability(input):
+	"""
+	is the number in [0.0, 1.0]
+	"""
+	if not isinstance(input, float):
+		msg = "'number' must be a floating point number. "
+		raise TypeError(
+            msg, "Actual type of 'number': ", type(input),)
+	
+	if 0.0 <= input and input <= 1.0:
+		return True
+	else:
+		return False
+
+assert is_probability.__doc__
+assert is_probability(0.0)
+assert is_probability(0.5)
+assert not is_probability(1.1)
+
+
+
