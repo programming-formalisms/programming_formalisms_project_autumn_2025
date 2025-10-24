@@ -13,7 +13,7 @@ assert is_zero(1) == False
 
 has_thrown = False
 try:
-    is_zero("nonsense")
+    is_zero({"nonsense", 0})
 except:
     has_thrown = True
 assert has_thrown
