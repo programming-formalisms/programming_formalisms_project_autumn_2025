@@ -46,4 +46,9 @@ assert is_even(2)
 assert not is_even(3)
 assert not is_even(-1)
 
-assert is_even('a')
+has_thrown = False
+try:
+    is_even(1.0)
+except TypeError:
+    has_thrown = True
+assert has_thrown
