@@ -3,7 +3,7 @@
 
 def is_zero(input):
     """ Determins if the input is zero """
-    return True
+    return input == 0
 
 assert is_zero.__doc__
 assert is_zero(0) == True
