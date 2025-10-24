@@ -20,3 +20,6 @@ print(is_zero(1))
 print(is_zero(-1))
 print(is_zero(0))
 print(is_zero(1.3))
+
+# Test 2
+print(is_zero('a'))
