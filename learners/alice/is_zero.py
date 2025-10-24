@@ -9,3 +9,5 @@ def is_zero(var):
     
 
 assert is_zero.__doc__
+assert is_zero(0) == True
+assert is_zero(1) == False
