@@ -11,8 +11,12 @@ assert is_zero(1) == False
 
 has_thrown = False
 try:
-    is_zero("NonSense")
+    is_zero({0, 1})
 except TypeError:
     has_thrown = True
 
 assert has_thrown
+
+
+
+assert is_prime.__doc__
