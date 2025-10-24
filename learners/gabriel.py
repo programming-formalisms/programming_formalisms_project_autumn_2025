@@ -19,4 +19,7 @@ assert has_thrown
 
 
 
+def is_prime(n):
+    """Function that return True if n is a prime number, otherwise returns False"""
+    
 assert is_prime.__doc__
