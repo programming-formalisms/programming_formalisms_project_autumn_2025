@@ -28,4 +28,3 @@ def read_non_empty_file(filename):
     if len(content) == 0:
         raise ValueError("File has no content")
     file.close()
-    return content
