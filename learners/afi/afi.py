@@ -3,9 +3,10 @@ def is_even(input):
 	is the number even (True) or odd (False)
 	raise error if not a number
 	"""
-	if (input//2)==0:
-
-	return True
+	if (input%2)==0:
+		return True
+	else:
+		return False
 
 
 
