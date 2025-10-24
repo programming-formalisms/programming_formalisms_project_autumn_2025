@@ -24,3 +24,8 @@ except TypeError:
 assert has_thrown
 
 
+try:
+    is_even("a string")
+except TypeError:
+    has_thrown = True
+assert has_thrown
