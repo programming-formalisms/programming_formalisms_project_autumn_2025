@@ -92,7 +92,7 @@ def is_prime(input):
 		raise TypeError("'input' must be of type int")
 	if input > 1:
 		is_prime = True 
-		for i in range(2, int(input**0.5) + 1):
+		for i in range(2, input-1):
 			if input % i == 0:
 				is_prime = False
 		return is_prime
