@@ -1,4 +1,4 @@
-# README Data
+# Data
 
 ## Content of folder
 
