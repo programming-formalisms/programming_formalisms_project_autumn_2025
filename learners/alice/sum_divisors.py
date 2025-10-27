@@ -1,7 +1,14 @@
-def sum_divisors(input):
+def sum_divisors(x):
     """Returns the Sum of input divisors"""
-    return 1
+    summation = 0
+    for divisor in range(1, x):
+        if x%divisor == 0:
+            print(divisor)
+            summation += divisor
+
+    return summation
 
 
 assert sum_divisors.__doc__ 
 assert sum_divisors(1) == 1
+assert sum_divisors(4) == 3
