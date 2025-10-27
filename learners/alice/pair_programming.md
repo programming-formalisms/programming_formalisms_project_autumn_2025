@@ -5,6 +5,7 @@
 - Interaction
 - Leader and criticising
 - Switching roles
+- (online: sharing screen)
 
 # 3. When to switch roles?
 - Ping-pong pair programming: one writes unit tests, the other writes code to pass tests and the new test. (a cycle)
