@@ -1,9 +1,9 @@
 # Requirements
 
 - read data
-    - read *.dat file
+    - read `*.dat` file
     - which column means which
-    - create dataframe or np.array
+    - create DataFrame or `np.array`
     
 - statistics summary
     - mean
