@@ -2,10 +2,10 @@
 
 ## Content of folder
 
-### Formatted files 
+### Formatted files
 
 - Columns ``uppsala_tm_1722-2022.dat``
-    - Top part (no text!)   
+    - Top part (no text!)
 
     1722  1 12   1.9   1.8 1
     1722  1 13   2.3   2.2 1
@@ -20,7 +20,7 @@
 
 ### Raw files
 
-- Web portal: https://www.smhi.se/data/hitta-data-for-en-plats/ladda-ner-vaderobservationer/airtemperatureInstant/
+- Web portal: <https://www.smhi.se/data/hitta-data-for-en-plats/ladda-ner-vaderobservationer/airtemperatureInstant/>
 - One can choose a station and further down one can download historical data "Ladda ner historisk data".
 - These are combined cdata and meta data files
 - So far there is just a couple of raw files down- adn uploaded to this folder

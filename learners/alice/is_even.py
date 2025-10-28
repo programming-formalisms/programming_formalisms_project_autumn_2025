@@ -5,11 +5,10 @@ def is_even(number):
     # Here I have defined is_even
     if not isinstance(number, int):
         raise TypeError("'number' must be of type int")
-    
+
     if number % 2 == 0:
         return True
-    else:
-        return False
+    return False
 
 assert is_even.__doc__
 assert is_even(2) == True

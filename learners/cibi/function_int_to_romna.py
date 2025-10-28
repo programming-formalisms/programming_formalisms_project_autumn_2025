@@ -1,6 +1,6 @@
 def int_to_roman(input):
     """Convert an integer to roman."""
-    if input == 0: 
+    if input == 0:
         return ""
     return "I"
 
