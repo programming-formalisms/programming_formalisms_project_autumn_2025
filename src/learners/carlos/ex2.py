@@ -1,4 +1,4 @@
-""" The script is to learn how to apply CI. """
+"""The script is to learn how to apply CI."""
 
 def is_odd(number: int) -> bool:
     assert isinstance(number, int)
