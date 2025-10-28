@@ -11,4 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Remove folders that need no checking for code style
+        run: rm -rf learners
+
       - uses: chartboost/ruff-action@v1
