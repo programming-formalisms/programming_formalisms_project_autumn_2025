@@ -8,7 +8,7 @@ Tip: run './scripts/install_this_package.sh'
 """
 
 from weather.analysis import (
-    do_analysis(),
+    do_analysis,
 )
 
 if __name__ == "__main__":
