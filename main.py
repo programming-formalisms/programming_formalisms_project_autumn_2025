@@ -7,10 +7,9 @@ You need to have the weather Python package installed.
 Tip: run './scripts/install_this_package.sh'
 """
 
-from weather.hypothesis_1 import (
-    draw_conclusion,
+from weather.analysis import (
+    do_analysis(),
 )
 
 if __name__ == "__main__":
-    draw_conclusion()
-    #read_data("data/uppsala_tm_1722-2022.dat")
+    do_analysis()
