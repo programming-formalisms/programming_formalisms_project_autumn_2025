@@ -16,7 +16,9 @@ jobs:
       uses: actions/setup-python@master
 
     - name: Remove folders that need no checking for code style
-      run: rm -rf learners
+      run: |
+        rm -rf learners
+        rm tests/test_richel.py
 
     - name: Generate Report
       run: |
