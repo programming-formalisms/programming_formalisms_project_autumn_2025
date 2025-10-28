@@ -1,0 +1,4 @@
+
+def is_odd(number: int) -> bool:
+    assert isinstance(number, int)
+    return number % 2 == 0
