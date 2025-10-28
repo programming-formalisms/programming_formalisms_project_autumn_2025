@@ -1,0 +1,19 @@
+
+
+
+def is_zero(input):
+    """ Determins if the input is zero """
+    if not isinstance(input, int):
+        raise TypeError("Input must be of type integer")
+    return input == 0
+
+assert is_zero.__doc__
+assert is_zero(0) == True
+assert is_zero(1) == False
+
+has_thrown = False
+try:
+    is_zero({"nonsense", 0})
+except:
+    has_thrown = True
+assert has_thrown
