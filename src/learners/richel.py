@@ -1,5 +1,9 @@
 """Richel's code."""
 
+def get_name():
+    """Get Richel's name, spelled correctly."""
+    return "Richèl"
+
 def collect_first_third_temperatures():
     return range(1, 100)
                                      
