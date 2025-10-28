@@ -10,7 +10,7 @@ def sum_divisors(x):
     return summation
 
 
-assert sum_divisors.__doc__ 
+assert sum_divisors.__doc__
 assert sum_divisors(1) == 0
 assert sum_divisors(4) == 3
 assert sum_divisors(0) == 0

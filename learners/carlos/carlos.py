@@ -1,6 +1,6 @@
 
 # exercise 1
-def is_zero(number:int | float) -> bool:
+def is_zero(number:float) -> bool:
     if not isinstance(number, (int, float)):
         raise TypeError(f"{number} is not a number")
     return number == 0

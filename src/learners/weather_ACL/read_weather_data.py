@@ -1,5 +1,6 @@
 import os
 
+
 def read_data(file_path):
     """Read the weather data from .dat file."""
     # Check if the file exists
@@ -7,14 +8,13 @@ def read_data(file_path):
         return False
 
     # open the file in read mode
-    with open(file_path, 'r') as file_obj:
+    with open(file_path) as file_obj:
         # read first character
         first_char = file_obj.read(1)
 
         if not first_char:
             return False
-        else:
-            return True
+        return True
 
 
 assert read_data.__doc__

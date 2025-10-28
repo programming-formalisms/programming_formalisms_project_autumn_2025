@@ -2,7 +2,7 @@
 
 
 def is_zero(input):
-    """ Determins if the input is zero """
+    """Determins if the input is zero"""
     if not isinstance(input, int):
         raise TypeError("Input must be of type integer")
     return input == 0

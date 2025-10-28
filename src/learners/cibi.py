@@ -32,7 +32,6 @@ def is_even(input):
     2. Return False if input is not even
     3. Gives an error when the inputis not a number
     """
-
     if not isinstance(input, int):
         raise TypeError("The input must be an integer!")
 

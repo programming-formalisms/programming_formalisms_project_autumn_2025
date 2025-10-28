@@ -1,15 +1,13 @@
 def is_even(input):
-	"""
-	is the number even (True) or odd (False)
+	"""Is the number even (True) or odd (False)
 	raise error if not a number
 	"""
 	if not isinstance(input, int):
 		raise TypeError("'input' must be of type int")
-	
+
 	if (input%2)==0:
 		return True
-	else:
-		return False
+	return False
 
 
 
@@ -29,17 +27,15 @@ assert has_thrown
 
 
 def is_odd(input):
-	"""
-	is the number even (True) or odd (False)
+	"""Is the number even (True) or odd (False)
 	raise error if not a number
 	"""
 	if not isinstance(input, int):
 		raise TypeError("'input' must be of type int")
-	
+
 	if (input%2)==0:
 		return False
-	else:
-		return True
+	return True
 
 
 
@@ -56,18 +52,16 @@ assert has_thrown
 
 
 def is_probability(input):
-	"""
-	is the number in [0.0, 1.0]
+	"""Is the number in [0.0, 1.0]
 	"""
 	if not isinstance(input, float):
 		msg = "'number' must be a floating point number. "
 		raise TypeError(
-            msg, "Actual type of 'number': ", type(input),)
-	
-	if 0.0 <= input and input <= 1.0:
+            msg, "Actual type of 'number': ", type(input))
+
+	if input >= 0.0 and input <= 1.0:
 		return True
-	else:
-		return False
+	return False
 
 assert is_probability.__doc__
 assert is_probability(0.0)
@@ -82,8 +76,7 @@ assert has_thrown
 
 
 def is_prime(input):
-	"""
-	is the number a prime number (only devidable by 1 and itself and bigger than 1)
+	"""Is the number a prime number (only devidable by 1 and itself and bigger than 1)
 	True if it is prime number
 	False if it is note
 	error if not a number
@@ -91,13 +84,12 @@ def is_prime(input):
 	if not isinstance(input, int):
 		raise TypeError("'input' must be of type int")
 	if input > 1:
-		is_prime = True 
+		is_prime = True
 		for i in range(2, input-1):
 			if input % i == 0:
 				is_prime = False
 		return is_prime
-	else:
-		return False
+	return False
 
 
 assert is_prime.__doc__

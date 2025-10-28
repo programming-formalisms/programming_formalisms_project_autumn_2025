@@ -12,7 +12,7 @@ def divide_by(numerator, denominator):
 # Exercise 2
 
 def read_file(filename):
-    file = open(filename, "r")
+    file = open(filename)
     content = file.read()
     file.close()
     return content
@@ -23,9 +23,9 @@ def read_non_empty_file(filename):
     import os
     assert os.path.isfile(filename)
     assert os.access(filename, os.R_OK)
-    file = open(filename, "r")
+    file = open(filename)
     content = file.read()
     file.close()
     return content
 
-read_non_empty_file('random.txt')
+read_non_empty_file("random.txt")

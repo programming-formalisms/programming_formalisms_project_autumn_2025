@@ -1,13 +1,12 @@
 def is_even(input):
-    """
-    function to determine if soemthing is even:
+    """Function to determine if soemthing is even:
     even numbers to be True
     uneven numbers to be False
     assert error if not a number (Integer)
     """
-    if not isinstance(input, int): 
-        raise TypeError('not an int')
-    
+    if not isinstance(input, int):
+        raise TypeError("not an int")
+
     return (input%2)==0
 
 assert is_even.__doc__
