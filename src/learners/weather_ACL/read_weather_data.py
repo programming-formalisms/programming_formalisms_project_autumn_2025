@@ -1,3 +1,4 @@
+# Module to read weather data
 import os
 
 
@@ -8,6 +9,7 @@ def read_data(file_path):
         return False
 
     # open the file in read mode
+
     with open(file_path) as file_obj:
         # read first character
         first_char = file_obj.read(1)
