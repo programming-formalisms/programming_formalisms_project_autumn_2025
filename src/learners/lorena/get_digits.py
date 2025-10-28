@@ -1,9 +1,8 @@
-def get_digits(input):
-    """ Gets the integer and splits into digits
-    """
-    # input_str = str(input).split()
+def get_digits(input_str):
+    """Get the integer and split into digits."""
+    # input_str = str(input_str).split()
     input_int = []
-    for i in str(input):
+    for i in str(input_str):
         i = int(i)
         input_int.append(i)
     return input_int
