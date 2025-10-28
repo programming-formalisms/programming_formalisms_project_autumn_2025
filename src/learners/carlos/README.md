@@ -1,3 +1,2 @@
-# Some randome title
-This is script taht was created for checking the spelling.
-
+# Some random title
+This is script that was created for checking the spelling.
