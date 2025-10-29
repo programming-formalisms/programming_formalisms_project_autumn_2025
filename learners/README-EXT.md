@@ -1,2 +1,2 @@
-# CITATION
-Take a look at 
+## Citation
+Take a look at the [CITATION.cff](CITATION.cff) 
