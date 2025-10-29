@@ -1,27 +1,30 @@
 # Requirements Discussion
-1.	Website - GitHub
-2.	Filter & view options
-2.1. based on time
-2.2. based on date
-2.3. based on region (next version)
-3.	Plot - time series
-3.1. Time series
-3.2. Histograms with box plots
-4.	Statistics
-4.1. Average
-4.2. Minimum
-4.3. Maximum
-4.4. Median
-4.5. Mode
-5.	Download
-  5.1. Raw data
-  5.2. Filtered data
-  5.3. Plots
-  5.4. Statistics
+
+1. Website - GitHub
+2. Filter & view options
+    - 2.1. based on time
+    - 2.2. based on date
+    - 2.3. based on region (next version)
+3. Plot - time series
+    - 3.1. Time series
+    - 3.2. Histograms with box plots
+4. Statistics
+    - 4.1. Average
+    - 4.2. Minimum
+    - 4.3. Maximum
+    - 4.4. Median
+    - 4.5. Mode
+5. Download
+    - 5.1. Raw data
+    - 5.2. Filtered data
+    - 5.3. Plots
+    - 5.4. Statistics
 6. Read data
-  6.1. load formatted data
-  6.2. be able to read _raw data_
-  6.3. choose station to analyse
+    - 6.1. load formatted data
+    - 6.2. be able to read _raw data_
+    - 6.3. choose station to analyse
+
+<!-- markdownlint-disable MD013 -->
 
 
 | Requirement ID | Requirement Description | Acceptance Criteria | Test Case |
@@ -45,7 +48,7 @@
 | 5.2 | Download filtered data | Provide download of data after filters are applied. | Apply filters, download filtered data, and confirm it reflects current view. |
 | 5.3 | Download plots | Enable exporting plots as image or PDF. | Export a plot and confirm correct formatting and data accuracy. |
 | 5.4 | Download statistics | Enable exporting computed statistics as a text or CSV file. | Download statistics and confirm values match those shown on the interface. |
-| 6 | Read data | Enable reading of source CSV files into variable names | Confirm parameters like dates and temperature with the colunmns of file | Read the file, define the variables from the right column of the resulting matrix (using the meta file)  | 
-| 6.1 | load data into program | Enable reading the existing Uppsala CSV file into variable names |Read the file, define the variables from the right column of the resulting matrix (using the meta file `*.txt`)  | 
-| 6.2 | be able to read _raw data_ | Enable reading combined meta data and columns from raw files with filename with station number, not name | Read the file, define the variables from the right column ignoring the meta data | 
-| 6.3 | choose station to analyse  | Enable choosing the right file by connecting station name with station number according to lookup table| Give the sation name and the correct file is loaded.
+| 6 | Read data | Enable reading of source CSV files into variable names | Confirm parameters like dates and temperature with the colunmns of file |
+| 6.1 | load data into program | Enable reading the existing Uppsala CSV file into variable names |Read the file, define the variables from the right column of the resulting matrix (using the meta file `*.txt`)  |
+| 6.2 | be able to read _raw data_ | Enable reading combined meta data and columns from raw files with filename with station number, not name | Read the file, define the variables from the right column ignoring the meta data |
+| 6.3 | choose station to analyse  | Enable choosing the right file by connecting station name with station number according to lookup table| Give the sation name and the correct file is loaded. |
