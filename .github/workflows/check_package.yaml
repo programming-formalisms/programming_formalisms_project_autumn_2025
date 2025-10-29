@@ -29,3 +29,6 @@ jobs:
 
       # No idea where this is good for ...?
       - uses: hynek/build-and-inspect-python-package@v2
+
+      - name: Confirm files are created
+        run: ls
