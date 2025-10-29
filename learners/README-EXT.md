@@ -8,6 +8,16 @@ This project is based of the works of [Bergström and Moberg Bergström and Mobe
 
 With this package, you'll be able to compute statistics such as median, mean, standard deviation, etc., as well as produce charts of temporal changes in temperature in Uppsala, from the 1st of December 1722 to the 31st of December 2022. You can also download the data and implement different filtering schemes. 
 
+## Installation
+
+- We recommend python version 3.12.
+
+```bash
+pip install -r requirements.txt
+pip install -i https://test.pypi.org/simple/ uppsalaweather==0.9
+```
+
+
 ## Getting started
 
 First follow the [Installation instructions](). 
