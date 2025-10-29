@@ -1,5 +1,5 @@
 ## Citation
-Take a look at the [CITATION.cff](CITATION.cff) to get infromation about how to cite this work.
+Take a look at the [CITATION.cff](CITATION.cff) to get information about how to cite this work.
 
 ## License
 Take a look at the [license](../LICENSE) file for more information.
