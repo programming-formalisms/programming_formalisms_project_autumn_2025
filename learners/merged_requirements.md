@@ -47,7 +47,7 @@
 | 5.2 | Download filtered data | Provide download of data after filters are applied. | Apply filters, download filtered data, and confirm it reflects current view. |
 | 5.3 | Download plots | Enable exporting plots as image or PDF. | Export a plot and confirm correct formatting and data accuracy. |
 | 5.4 | Download statistics | Enable exporting computed statistics as a text or CSV file. | Download statistics and confirm values match those shown on the interface. |
-| 6 | Read data | Enable reading of source CSV files into variable names | Confirm parameters like dates and temperature with the colunmns of file | Read the file, define the variables from the right column of the resulting matrix (using the meta file)  | 
-| 6.1 | load data into program | Enable reading the existing Uppsala CSV file into variable names |Read the file, define the variables from the right column of the resulting matrix (using the meta file `*.txt`)  | 
-| 6.2 | be able to read _raw data_ | Enable reading combined meta data and columns from raw files with filename with station number, not name | Read the file, define the variables from the right column ignoring the meta data | 
-| 6.3 | choose station to analyse  | Enable choosing the right file by connecting station name with station number according to lookup table| Give the sation name and the correct file is loaded.
+| 6 | Read data | Enable reading of source CSV files into variable names | Confirm parameters like dates and temperature with the colunmns of file | Read the file, define the variables from the right column of the resulting matrix (using the meta file)  |
+| 6.1 | load data into program | Enable reading the existing Uppsala CSV file into variable names |Read the file, define the variables from the right column of the resulting matrix (using the meta file `*.txt`)  |
+| 6.2 | be able to read _raw data_ | Enable reading combined meta data and columns from raw files with filename with station number, not name | Read the file, define the variables from the right column ignoring the meta data |
+| 6.3 | choose station to analyse  | Enable choosing the right file by connecting station name with station number according to lookup table| Give the sation name and the correct file is loaded. |
