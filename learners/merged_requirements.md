@@ -2,9 +2,9 @@
 
 1. Website - GitHub
 2. Filter & view options
-2.1. based on time
-2.2. based on date
-2.3. based on region (next version)
+    2.1. based on time
+    2.2. based on date
+    2.3. based on region (next version)
 3. Plot - time series
 3.1. Time series
 3.2. Histograms with box plots
