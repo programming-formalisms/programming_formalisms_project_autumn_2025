@@ -22,4 +22,4 @@ try:
 except:
     has_thrown = True
 
-assert has_thrown
+assert has_thrown == False
